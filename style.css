@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  border: 5px solid yellow;
+  padding: 1em;
+  text-align: center;
+  background-color: purple;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: white;
+}
+
+section:nth-child(2) {
+  background-color: tomato;
+}
+section:nth-child(3) {
+  background-color: skyblue;
+}
+section:nth-child(4) {
+  background-color: violet;
+}
+section:nth-child(5) {
+  background-color: cadetblue;
+}
+section:nth-child(6) {
+  background-color: orange;
+}
+section:nth-child(7) {
+  background-color: limegreen;
+}
+section:nth-child(8) {
+  background-color: teal;
+}
